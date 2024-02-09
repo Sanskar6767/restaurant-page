@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+}
+
+header {
+    background-color: rgb(69, 72, 72);
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    /* padding: 0 20%; */
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.nav-button {
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 22px;
+    background-color: rgb(94, 91, 91);
+    transition: all ease 0.3s;
+    color: aliceblue;
+}
+
+.nav-button:hover {
+    transform: scale(0.9);
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke ;
+}
+
+#content {
+    background-image: url(./assets/bg.jpg);
+    min-height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 10rem;
+    margin: 0;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 48px;
+    padding: 60px 80px;
+    background-color: rgba(0, 0, 0, 0.582);
+    border-radius: 18px;
+}
+
+.welcome>h1,p {
+    /* margin: 0; */
+    color: white;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    grid-template-rows: repeat(3, 1fr); /* Creates 3 rows */
+    gap: 10px; /* Space between grid items */
+    width: 100%; /* Adjust as needed */
+    /* max-width: 600px;  */
+    color: white;
+    margin: auto; /* Center the grid horizontally */
+}
+
+.grid-item {
+    background-color: rgb(36, 87, 149);
+    padding: 30px 20px;
+}
+
+.grid-item img {
+    width: 150px;
+    border-radius: 10%;
+}
+
+.grid-item h3 {
+    font-size: 34px;
+    margin: 30px 0 0;
+}
+
+.grid-item button {
+    margin: 10px;
+    font-size: 22px;
+    background-color: rgba(91, 222, 91, 0.813);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
