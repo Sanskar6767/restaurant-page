@@ -1,4 +1,5 @@
 const menuItems = [
+    
     { title: 'Pizza', price: '9.99', imageUrl: '/src/assets/pizza.jpg' },
     { title: 'Burger', price: '3.99', imageUrl: '/src/assets/burger.jpg' },
     { title: 'Pasta', price: '4.00', imageUrl: '/src/assets/pasta.jpg' },
