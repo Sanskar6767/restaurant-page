@@ -1,3 +1,4 @@
+
 export function aboutPageSetup () {
     const content = document.querySelector('#content');
     const welcome = document.createElement('div');
