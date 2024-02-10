@@ -2,17 +2,18 @@ import pizza from '/src/assets/pizza.jpg';
 import burger from './assets/burger.jpg';
 import pasta from './assets/pasta.jpg';
 import logo from './assets/logo.jpg';
+
 const menuItems = [
 
-    { title: 'Pizza', price: '9.99', imageUrl: '/src/assets/pizza.jpg' },
-    { title: 'Burger', price: '3.99', imageUrl: './assets/burger.jpg' },
-    { title: 'Pasta', price: '4.00', imageUrl: '/src/assets/pasta.jpg' },
-    { title: 'Pizza', price: '9.99', imageUrl: '/src/assets/pizza.jpg' },
-    { title: 'Burger', price: '3.99', imageUrl: '/src/assets/burger.jpg' },
-    { title: 'Pasta', price: '4.00', imageUrl: '/src/assets/pasta.jpg' },
-    { title: 'Pizza', price: '9.99', imageUrl: '/src/assets/pizza.jpg' },
-    { title: 'Burger', price: '3.99', imageUrl: '/src/assets/burger.jpg' },
-    { title: 'Pasta', price: '4.00', imageUrl: '/src/assets/pasta.jpg' },
+    { title: 'Pizza', price: '9.99', imageUrl: pizza },
+    { title: 'Burger', price: '3.99', imageUrl: burger },
+    { title: 'Pasta', price: '4.00', imageUrl: pasta },
+    { title: 'Pizza', price: '9.99', imageUrl: pizza},
+    { title: 'Burger', price: '3.99', imageUrl: burger },
+    { title: 'Pasta', price: '4.00', imageUrl: pasta },
+    { title: 'Pizza', price: '9.99', imageUrl: pizza },
+    { title: 'Burger', price: '3.99', imageUrl: burger },
+    { title: 'Pasta', price: '4.00', imageUrl: pasta},
     // Add more items as needed
   ];
   

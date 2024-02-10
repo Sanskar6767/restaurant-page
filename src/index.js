@@ -12,6 +12,11 @@ const home = document.querySelector('.home-button');
 const about = document.querySelector('.about-button');
 const content = document.querySelector('#content');
 
+document.addEventListener('DOMContentLoaded', () => {
+    const logoImage = document.querySelector('.logo');
+    if (logoImage) logoImage.src = logo
+})
+
 function initialPageSetup() {
     document.addEventListener('DOMContentLoaded', homePageSetup);
 }
